@@ -1,4 +1,4 @@
-package com.control_statements;
+package com.controlstatements;
 
 import java.util.Scanner;
 

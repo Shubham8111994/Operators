@@ -1,4 +1,4 @@
-package com.control_statements;
+package com.controlstatements;
 
 public class Loops {
     public static void main(String[] args) {
