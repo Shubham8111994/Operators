@@ -1,8 +1,9 @@
-package day3homework;
+package arrays;
 
 import java.util.Scanner;
-//Program to find smallest number in an array
-public class SmallestNumberInArray {
+
+//Program to find 2nd largest and smallest no in an array
+public class SecondLargestInArray {
     public static void main(String[] args) {
         int[] numbers=new int[5];
         Scanner input = new Scanner(System.in);
@@ -24,6 +25,9 @@ public class SmallestNumberInArray {
             System.out.print(numbers[i]+" ");
         }
         System.out.println();
+        System.out.println("second largest no is: "+ numbers[1]);
         System.out.println("smallest no is: "+ numbers[numbers.length-1]);
     }
+
+
 }
